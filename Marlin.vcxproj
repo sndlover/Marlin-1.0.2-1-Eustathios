@@ -74,8 +74,8 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>e:\Arduino\arduino-1.6.8\hardware\arduino\avr\cores\arduino;e:\Arduino\arduino-1.6.8\hardware\arduino\avr\variants\mega;C:\Users\zgnolt\Desktop\Marlin-1.0.2-1\Marlin;e:\Arduino\arduino-1.6.8\libraries\LiquidCrystal\src;e:\Arduino\arduino-1.6.8\libraries\LiquidCrystal\src\utility;e:\Arduino\arduino-1.6.8\hardware\arduino\avr\libraries\SPI\src;e:\Arduino\arduino-1.6.8\hardware\arduino\avr\libraries\SPI\src\utility;e:\Arduino\arduino-1.6.8\hardware\arduino\avr\libraries\Wire\src;e:\Arduino\arduino-1.6.8\hardware\arduino\avr\libraries\Wire\src\utility;e:\Arduino\arduino-1.6.8\libraries;e:\Arduino\arduino-1.6.8\hardware\arduino\avr\libraries;C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\00sqajbn.boy\Micro Platforms\default\debuggers;C:\Users\zgnolt\Documents\Arduino\libraries;e:\Arduino\arduino-1.6.8\hardware\arduino\avr\cores\arduino;e:\Arduino\arduino-1.6.8\hardware\arduino\avr\variants\mega;e:\Arduino\arduino-1.6.8\libraries\LiquidCrystal\src;e:\Arduino\arduino-1.6.8\libraries;e:\Arduino\arduino-1.6.8\hardware\arduino\avr\libraries;C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\00sqajbn.boy\Micro Platforms\default\debuggers;C:\Users\zgnolt\Documents\Arduino\libraries;e:\Arduino\arduino-1.6.8\hardware\tools\avr/avr/include/;e:\Arduino\arduino-1.6.8\hardware\tools\avr//avr/include/avr/;e:\Arduino\arduino-1.6.8\hardware\tools\avr/lib\gcc\avr\4.8.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <ForcedIncludeFiles>C:\Users\zgnolt\Desktop\Marlin-1.0.2-1\Marlin\__vm\.Marlin.vsarduino.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <AdditionalIncludeDirectories>e:\Arduino\arduino-1.6.8\hardware\arduino\avr\cores\arduino;e:\Arduino\arduino-1.6.8\hardware\arduino\avr\variants\mega;e:\GIT\Github\Marlin-1.0.2-1-Eustathios;e:\Arduino\arduino-1.6.8\libraries\LiquidCrystal\src;e:\Arduino\arduino-1.6.8\libraries\LiquidCrystal\src\utility;e:\Arduino\arduino-1.6.8\hardware\arduino\avr\libraries\SPI\src;e:\Arduino\arduino-1.6.8\hardware\arduino\avr\libraries\SPI\src\utility;e:\Arduino\arduino-1.6.8\hardware\arduino\avr\libraries\Wire\src;e:\Arduino\arduino-1.6.8\hardware\arduino\avr\libraries\Wire\src\utility;e:\Arduino\arduino-1.6.8\libraries;e:\Arduino\arduino-1.6.8\hardware\arduino\avr\libraries;C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\00sqajbn.boy\Micro Platforms\default\debuggers;C:\Users\zgnolt\Documents\Arduino\libraries;e:\Arduino\arduino-1.6.8\hardware\tools\avr/avr/include/;e:\Arduino\arduino-1.6.8\hardware\tools\avr//avr/include/avr/;e:\Arduino\arduino-1.6.8\hardware\tools\avr/lib\gcc\avr\4.8.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>e:\GIT\Github\Marlin-1.0.2-1-Eustathios\__vm\.Marlin-1.0.2-1-Eustathios.vsarduino.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
       <PreprocessorDefinitions>__AVR_ATmega2560__;F_CPU=16000000L;ARDUINO=10608;ARDUINO_AVR_MEGA2560;ARDUINO_ARCH_AVR;__cplusplus=201103L;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
   </ItemDefinitionGroup>
@@ -271,6 +271,7 @@
     <ClInclude Include="watchdog.h">
       <FileType>CppCode</FileType>
     </ClInclude>
+    <ClInclude Include="__vm\.Marlin-1.0.2-1-Eustathios.vsarduino.h" />
     <ClInclude Include="__vm\.Marlin.vsarduino.h" />
   </ItemGroup>
   <ItemGroup>
